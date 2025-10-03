@@ -5,7 +5,7 @@ do
     java 
     -XX:+UseContainerSupport 
     -Xms128M 
-    -XX:MaxRAMPercentage=95.0 
+    -XX:MaxRAMPercentage=95.0
     --add-modules=jdk.incubator.vector 
     -XX:+UseG1GC 
     -XX:+ParallelRefProcEnabled 
