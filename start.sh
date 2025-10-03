@@ -1,5 +1,5 @@
 #!/bin/bash
-
+TITLE="MC Server"
 while [ true ]; 
 do
     java 
