@@ -2,7 +2,7 @@ apt update -y
 apt upgrade -y
 cd
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
-wget https://raw.githubusercontent.com/thangvoquyet46/thangvoquyet46/main/huy-cai-dat.sh
+wget https://raw.githubusercontent.com/voquyetthang/thangvoquyet46/main/huy-cai-dat.sh
 clear
 apt install speedtest-cli -y
 echo -e "Bắt đầu kiểm tra tốc độ mạng"
