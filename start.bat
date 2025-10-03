@@ -6,7 +6,7 @@ color 0C
 java -XX:+UseContainerSupport 
 -Xms128M 
 -add-modules=jdk.incubator.vector 
--XX:MaxRAMPercentage=45.0 
+-XX:MaxRAMPercentage=95.0 
 -XX:+UseG1GC 
 -XX:+ParallelRefProcEnabled 
 -XX:MaxGCPauseMillis=50 
@@ -21,6 +21,7 @@ java -XX:+UseContainerSupport
 -Dsun.stdout.encoding=UTF-8 
 -Dsun.stderr.encoding=UTF-8
 -jar server.jar
+pause
 @echo Máy chủ đang khởi động lại... 
 @echo Nhấn CTRL + C để dừng. 
 goto :mc
