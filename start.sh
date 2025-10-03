@@ -30,6 +30,6 @@ do
     -Duser.timezone="Asia/Ho_Chi_Minh"  
     -jar server.jar --nogui
 
-    echo Server restarting...
-    echo Press CTRL + C to stop.
+    echo Máy chủ đang khởi động lại... 
+    echo Nhấn CTRL + C để dừng.
 done
